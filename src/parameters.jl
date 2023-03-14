@@ -84,6 +84,6 @@ struct Verlet <: MolecularDynamics end
 struct Langevin <: MolecularDynamics end
 struct LangevinSmartMonteCarlo <: MolecularDynamics end
 
-struct System
-    parameters::Vector{SystemParameters}
+struct GeneralInput
+    parameters::Vector{Parameters}
 end
