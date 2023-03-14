@@ -3,6 +3,9 @@ uuid = "bd21691c-901c-41c3-939b-9c02ec4395ba"
 authors = ["singularitti <singularitti@outlook.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+CrystallographyBase = "93b1d1cd-a8ea-4aa5-adb1-b2407ea0ba8d"
+
 [compat]
 julia = "1"
 
