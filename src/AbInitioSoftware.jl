@@ -1,5 +1,5 @@
 module AbInitioSoftware
 
-# Write your package code here.
+include("parameters.jl")
 
 end
