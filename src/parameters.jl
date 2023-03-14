@@ -5,6 +5,10 @@ export Parameters
 abstract type Parameters end
 
 abstract type SystemParameters <: Parameters end
+struct Atom <: Parameters
+    element::Element
+    label::String
+end
 struct CrystalStructure <: SystemParameters
     cell::Cell
 end
